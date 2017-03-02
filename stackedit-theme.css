@@ -1,0 +1,92 @@
+#preview-contents ul{
+  margin-bottom: 20px;
+}
+#preview-contents ul li{
+  margin: 0 0 7px;
+  line-height: 1.7;
+  position: relative;
+  padding-left: 33px;
+}
+#preview-contents ul li:before {
+  display: block;
+  width: 7px;
+  height: 7px;
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  background: #000;
+  border-radius: 50%;
+}
+#preview-contents table{
+  width: 100%;
+  margin-bottom: 20px;
+}
+#preview-contents p img{
+  margin-top: 20px;
+}
+#preview-contents table th,
+#preview-contents table td{
+  border: 1px solid #ddd !important;
+  padding: 10px !important;
+}
+#preview-contents table th{
+  font-weight: bold !important;
+  background-color: #ededed !important;
+}
+#preview-contents h1{
+  font-size: 24px !important;
+  background-color: #333 !important;
+  color:white !important;
+}
+#preview-contents h2{
+  font-size: 18px !important;
+  background-color: #999 !important;
+  color: white !important;
+}
+#preview-contents h3{
+  font-size: 24px !important;
+  background-color: #e2e2e2 !important;
+  padding: 5px 20px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+  font-weight: bold !important;
+  margin-top: 40px !important;
+  position: relative !important;
+}
+#preview-contents h3:before{
+  content: "" !important;
+  position: absolute !important;
+  bottom: -32px !important;
+  left: 20px !important;
+  width: 0 !important;
+  height: 0 !important;
+  border: 20px solid transparent !important;
+  border-top: 20px solid #e2e2e2 !important;
+}
+#preview-contents h4{
+  font-size: 18px !important;
+  position: relative !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  padding-left: 15px !important;
+  margin-bottom: 20px !important;
+  font-weight: bold !important;
+}
+#preview-contents h4:before{
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px !important;
+  height: 50px !important;
+  background-color: #999 !important;
+}
+#preview-contents a{
+  color: #E14D70 !important;
+  text-decoration: underline !important;
+}
+#preview-contents p{
+  margin-bottom: 20px !important;
+}
