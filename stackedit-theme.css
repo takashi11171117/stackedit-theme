@@ -1,5 +1,6 @@
 #preview-contents ul{
   margin-bottom: 20px;
+  list-style-type: none;
 }
 #preview-contents ul li{
   margin: 0 0 7px;
